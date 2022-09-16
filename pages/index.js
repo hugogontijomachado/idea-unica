@@ -7,6 +7,7 @@ function Home() {
     }
     return (
         <div>
+            <div> PAGINA INICIAL </div>
             <div>{contador}</div>
             <button onClick={updateContador}>Adicionar Contador</button>
         </div>
