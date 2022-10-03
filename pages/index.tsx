@@ -14,6 +14,7 @@ export default function Home({repos,date}) {
     return (
         <>
             <h3>{date}</h3>
+            <p>modificado</p>
             <div> PAGINA INICIAL </div>
             <div>{contador}</div>
             <button onClick={updateContador}>Adicionar Contador</button>
